@@ -34,6 +34,10 @@ body {
 #nav div {
     margin-left: 10px;
 }
+
+#nav div:hover {
+    text-decoration: underline white;
+}
 .showcase-container {
     height: 410px;
     display: flex;
@@ -55,6 +59,11 @@ body {
     background-color: #3882F6;
     color: white;
     font-size: 15px;
+}
+
+#info button:hover {
+    background-color: #1F2937;
+    border: 1px solid white;
 }
 
 #info h1 {
@@ -171,6 +180,11 @@ body {
     background-color: white;
     color: #3882F6;
     font-size: 15px; 
+}
+
+#btn button:hover {
+    background-color: #1F2937;
+    color: white;
 }
 
 footer {
