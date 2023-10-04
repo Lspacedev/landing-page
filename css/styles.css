@@ -16,7 +16,8 @@ body {
 #logo {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 #nav {
@@ -43,8 +44,9 @@ body {
     width: 200px;
 }
 
-#showcase-image {
-    width: 200px;
+#showcase-image img {
+    width: 500px
+    
 }
 
 .information-container {
