@@ -8,19 +8,23 @@ body {
 .header-container {
     height: 110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: white;
     
 }
 #logo {
+    padding-left: 90px;
     display: flex;
     align-items: center;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bold;
+    
+    
 }
 
 #nav {
+    padding-right: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,14 +38,31 @@ body {
     height: 410px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     background-color: #1F2937;
     color: white;
 
 }
 
 #info {
-    width: 200px;
+    width: 400px;
+}
+
+#info button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+}
+
+#info h1 {
+    font-size: 48px;
+}
+
+#info p {
+    font-size: 18px;
 }
 
 #showcase-image img {
@@ -51,26 +72,75 @@ body {
 
 .information-container {
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
     background-color: white;
-    color: white;
+    
+    
+}
+.information-container h1 {
+   text-align: center;
     
 }
 
-.info-item {
-    height: 50px;
-    width: 100px;
-    justify-content: space-around;
+.information-content {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #ffffff;
+    
     
 }
+
+
+
+.info-item {
+    height: 200px;
+    width: 100px;
+    justify-content: space-around;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+  
+    
+}
+
+.information-subtext {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  
+}
+
+
+
+.sub-text {
+    width: 100px;
+    justify-content: space-around;
+    font-size: 18px;
+    
+}
+
+
 
 .extra-container{
     height: 400px;
     background-color: #E5E7EB;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-container div{
+    width: 50%;
+    margin: auto;
+}
+
+.extra-container p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .callback-container{
@@ -81,8 +151,26 @@ body {
 }
 
 #email {
-    height: 70px;
-    width: 600px;
+    height: 150px;
+    width: 80%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Call {
+    color: white;
+}
+
+#btn button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    color: #3882F6;
+    font-size: 15px; 
 }
 
 footer {
